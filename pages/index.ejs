@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if IE 7]>         <html lang="js" class="no-js is-ie7 oldie"><![endif]-->
+<!--[if IE 8]>         <html lang="js" class="no-js is-ie8 oldie"><![endif]-->
+<!--[if IE 9]>         <html lang="js" class="no-js is-ie9"><![endif]-->
+<!--[if gt IE 9]><!--> <html lang="js" class="no-js"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Synth-js</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <% include partials/styles.ejs %>
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <div class="l-wrapper">
+
+    <% include partials/header.ejs %>
+
+    <main role="main">
+
+      <canvas id="graphicsCanvas" width="800" height="800"></canvas>
+
+    </main>
+
+    <% include partials/footer.ejs %>
+
+  </div>
+
+  <% include partials/scripts.ejs %>
+
+</body>
+</html>

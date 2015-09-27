@@ -1,0 +1,10 @@
+{
+  "name": "synth-js",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "~3.0.1",
+    "jquery": "~1.11.0",
+    "mousetrap": "git@github.com:ccampbell/mousetrap.git#~1.4.6",
+    "lodash": "~2.4.1"
+  }
+}
